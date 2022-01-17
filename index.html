@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+</head>
+<body>
+<script>
+    function isPalindrome(a){
+        for (let i = 0; i < a.length/2; i++) {
+            if (a[i]===a[a.length-i-1]){
+                return true;
+            }
+        }return false;
+    }let b=prompt("Nhập từ vào đây");
+    let c=b.toString();
+    document.write(isPalindrome(c))
+</script>
+</body>
+</html>
